@@ -1,0 +1,262 @@
+/**
+ * CONTENTS
+ *
+ * #Settings
+ * Global...............Globally-available variables and config.
+ *
+ * #Typography
+ * Normalize.css........A level playing field.
+ * Box-sizing...........Better default `box-sizing`.
+ *
+ * COMPONENTS
+ * Page-head............The main page header.
+ * Page-foot............The main page footer.
+ * Buttons..............Button elements.
+ *
+ * TRUMPS
+ * Text.................Text helpers.
+ */
+/*------------------------------------*\
+    #Settings
+\*------------------------------------*/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*------------------------------------*\
+    #Base
+\*------------------------------------*/
+body {
+  background-color: #f4f4f4;
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+/*------------------------------------*\
+    #Typography
+\*------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400, 600);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+html {
+  font: 100%/1.5 "Open Sans", sans-serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+@media (min-width: 40rem) {
+  html { font-size: 112%; }
+}
+@media (min-width: 64rem) {
+  html { font-size: 120%; }
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+/*------------------------------------*\
+    #Wrapper
+    small : 24em; med : 46.8em; large : 50em; xl : 73em;
+
+    Media Query breakpoints
+    small: 25em; 400px
+    Med: 43.75em; 700px
+    large: 56.25em; 900px
+    x-large: 81.25em; 1300px
+\*------------------------------------*/
+/*Default styles*/
+.wrapper {
+  max-width: 90em;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+/*Mobile Screen*/
+@media screen and (min-width: 24em) {
+  .wrapper {
+    max-width: 50em;
+  }
+}
+/* Desktop Large styles*/
+@media screen and (min-width: 50em) {
+  .wrapper {
+    max-width: 40em;
+  }
+}
+
+/*------------------------------------*\
+    #Grid
+    http://www.adamkaplan.me/grid/
+\*------------------------------------*/
+@media screen and (min-width: 50em) {
+  .col {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .col.full { width: 100%; }
+  .col.two-thirds { width: 66.7%; }
+  .col.half { width: 50%; }
+  .col.third { width: 33.3%; }
+  .col.fourth { width: 25%; }
+  .col.flow-opposite { float: right; }
+}
+/*------------------------------------*\
+    #Banner
+\*------------------------------------*/
+.switch {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1em 1em 0 0;
+}
+/*------------------------------------*\
+    #Input Field
+\*------------------------------------*/
+.brand {
+  margin: 1em 0;
+}
+/*------------------------------------*\
+    #Input Field
+\*------------------------------------*/
+.location {
+  width: 100%;
+  padding: .5em 0;
+  margin: 0;
+
+  border-radius: 10px;
+    -webkit-box-shadow:inset 1px 1px 1px 1px rgba(0,0,0,.1);
+            box-shadow:inset 1px 1px 1px 1px rgba(0,0,0,.1);
+  border: none;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  text-align: center;
+}
+  .light .location {
+    color: #515151;
+    background-color: rgba(255,255,255,.6);
+  }
+  .dark .location {
+    color: #fff;
+    background-color: rgba(255,255,255,.1);
+  }
+
+.forecast {
+  border-radius: 10px;
+  margin: 2em 0;
+  padding: 2em;
+  text-align: center;
+}
+  .light .forecast {
+    background-color: rgba(255,255,255,.8);
+  }
+  .dark .forecast {
+    background-color: rgba(255,255,255,.6);
+  }
+  .forecast-date,
+  .forecast-city {
+    background-color: rgba(0,0,0,.1);
+    padding: .2em;
+    margin: 0;
+    border-radius: 1em;
+    -webkit-box-shadow:inset 1px 1px 1px 1px rgba(0,0,0,.1);
+            box-shadow:inset 1px 1px 1px 1px rgba(0,0,0,.1);
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #fff;
+  }
+  .forecast-tempature {
+    margin: 0 0 .1em 0;
+    padding: .1em 0 0 0;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 6em;
+    color: #383838;
+    text-shadow: 0 1px 1px #FFFFFF;
+  }
+  .forecast-tempature small {
+    font-size: 75%;
+    color: #515151;
+  }
+/*------------------------------------*\
+    #Weather Icons
+\*------------------------------------*/
+.icon {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 3em;
+}
+/*------------------------------------*\
+    #Footer
+\*------------------------------------*/
+footer {
+  padding: 1em 5em;
+}
+  footer p {
+    margin: 0 0 1em 0;
+    padding: 0;
+    color: #a8a8a8;
+  }
+footer .photo-attribute {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 1em 1em 0;
+}

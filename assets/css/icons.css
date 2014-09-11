@@ -1,0 +1,44 @@
+/*------------------------------------*\
+    #Brand Icon
+\*------------------------------------*/
+.dark .svg-earth,
+.dark .svg-moon-orbit  {
+  stroke: #FFFFFF;
+}
+  .dark .svg-earth:hover,
+  .dark .svg-moon-orbit:hover  {
+    stroke: #d1d1d1;
+  }
+.dark .svg-moon {
+  fill: #FFFFFF;
+}
+  .dark .svg-moon:hover {
+    fill: #d1d1d1;
+  }
+
+.light .svg-earth,
+.light .svg-moon-orbit  {
+  stroke: #3d3d3d;
+}
+  .light .svg-earth:hover,
+  .light .svg-moon-orbit:hover  {
+    stroke: #3d3d3d;
+  }
+.light .svg-moon {
+  fill: #3d3d3d;
+}
+  .light .svg-moon:hover {
+    fill: #3d3d3d;
+  }
+/*------------------------------------*\
+    #Weather Icons
+\*------------------------------------*/
+.partlycloudy {
+  background: url('../../assets/icons/partlycloudy.svg') top center no-repeat transparent;
+}
+.cloudy {
+  background: url('../../assets/icons/cloudy.svg') top center no-repeat transparent;
+}
+.cloud {
+  background: url('../../assets/icons/cloud.svg') top center no-repeat transparent;
+}

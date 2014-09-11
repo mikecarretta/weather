@@ -1,0 +1,17 @@
+# Folders to ignore
+app
+node_modules
+bower_components
+
+# Specific files to ignore
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+
+# always-ignore extensions
+*.log
+*.zip
+*~
