@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Brand</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Brand" sketch:type="MSArtboardGroup">
+            <g id="Orbit" sketch:type="MSLayerGroup" transform="translate(1.000000, 24.000000)">
+                <ellipse id="Oval" stroke="#222222" stroke-width="5" sketch:type="MSShapeGroup" cx="58.0983019" cy="38.391791" rx="32.4945283" ry="32.6753731"></ellipse>
+                <ellipse id="Oval" stroke="#222222" stroke-width="2.99994409" opacity="0.5" sketch:type="MSShapeGroup" transform="translate(58.809363, 36.540970) rotate(23.534890) translate(-58.809363, -36.540970) " cx="58.5900654" cy="36.5622384" rx="57.6664159" ry="15.1329269"></ellipse>
+                <ellipse id="Oval" fill="#222222" sketch:type="MSShapeGroup" cx="81.7973774" cy="59.9839552" rx="11.6653019" ry="11.7302239"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

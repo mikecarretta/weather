@@ -18,15 +18,4 @@
     $.backstretch("assets/bkg-images/night1.jpg");
   });
 
-  // Velocity animation for the white background
-  $(".forecast")
-  .velocity("transition.slideDownIn", 1500)
-      .delay(750);
-
-  // Velocity animation for the weather icon
-  $(".icon")
-    .velocity({ scale: 1.1 }, {
-      duration: 1000,
-      loop: 1
-  });
 })();

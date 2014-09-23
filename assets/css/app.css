@@ -16,25 +16,12 @@
  * TRUMPS
  * Text.................Text helpers.
  */
-/*------------------------------------*\
-    #Settings
-\*------------------------------------*/
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
+
 /*------------------------------------*\
     #Base
 \*------------------------------------*/
 body {
-  background-color: #f4f4f4;
+  background-color: #185499;
 }
 a {
   color: #428bca;
@@ -118,42 +105,24 @@ h6 {
     x-large: 81.25em; 1300px
 \*------------------------------------*/
 /*Default styles*/
-.wrapper {
+.container {
   max-width: 90em;
   margin: 0 auto;
   padding: 0 2em;
 }
-/*Mobile Screen*/
+
 @media screen and (min-width: 24em) {
-  .wrapper {
+  .container {
     max-width: 50em;
   }
 }
-/* Desktop Large styles*/
+
 @media screen and (min-width: 50em) {
-  .wrapper {
-    max-width: 40em;
+  .container {
+    max-width: 50em;
   }
 }
 
-/*------------------------------------*\
-    #Grid
-    http://www.adamkaplan.me/grid/
-\*------------------------------------*/
-@media screen and (min-width: 50em) {
-  .col {
-    float: left;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-
-  .col.full { width: 100%; }
-  .col.two-thirds { width: 66.7%; }
-  .col.half { width: 50%; }
-  .col.third { width: 33.3%; }
-  .col.fourth { width: 25%; }
-  .col.flow-opposite { float: right; }
-}
 /*------------------------------------*\
     #Banner
 \*------------------------------------*/
@@ -167,8 +136,65 @@ h6 {
     #Input Field
 \*------------------------------------*/
 .brand {
-  margin: 1em 0;
+  margin: 1em 0 2em 0;
 }
+  .brand svg {
+    float: left;
+    margin-right: 1em;
+    padding-bottom: 1em;
+    width: 80px;
+  }
+  .brand h1 {
+    padding-top: .5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #fff;
+  }
+  .icons .brand h1 {
+    color: #3d3d3d;
+  }
+  .brand a:hover {
+    text-decoration: none;
+    color: #222;
+
+  }
+/*------------------------------------*\
+    #Brand SVG Icon
+\*------------------------------------*/
+.dark .svg-earth,
+.dark .svg-moon-orbit  {
+  stroke: #FFFFFF;
+}
+  .dark .svg-earth:hover,
+  .dark .svg-moon-orbit:hover  {
+    stroke: #d1d1d1;
+  }
+.dark .svg-moon {
+  fill: #FFFFFF;
+}
+  .dark .svg-moon:hover {
+    fill: #d1d1d1;
+  }
+
+.icons .svg-earth,
+.light .svg-earth,
+.icons .svg-moon-orbit,
+.light .svg-moon-orbit  {
+  stroke: #3d3d3d;
+}
+  .icons .svg-earth:hover,
+  .light .svg-earth:hover,
+  .light .svg-moon-orbit:hover  {
+    stroke: #3d3d3d;
+  }
+.icons .svg-moon,
+.light .svg-moon {
+  fill: #3d3d3d;
+}
+  .icons .svg-moon:hover,
+  .light .svg-moon:hover {
+    fill: #3d3d3d;
+  }
 /*------------------------------------*\
     #Input Field
 \*------------------------------------*/
@@ -195,11 +221,25 @@ h6 {
     color: #fff;
     background-color: rgba(255,255,255,.1);
   }
+/*------------------------------------*\
+    #Forecast Column--Main
+\*------------------------------------*/
+/* Remove the padding for the columns for desktop and tablet */
+@media (min-width: 768px) {
+  .forecast--main {
+    padding-right: 0;
+  }
+  .forecast--sidebar {
+    margin-top: 83px;
+    padding-left: 0;
+  }
+}
 
 .forecast {
+  min-height: 480px;
   border-radius: 10px;
   margin: 2em 0;
-  padding: 2em;
+  padding: 0;
   text-align: center;
 }
   .light .forecast {
@@ -208,41 +248,118 @@ h6 {
   .dark .forecast {
     background-color: rgba(255,255,255,.6);
   }
-  .forecast-date,
-  .forecast-city {
-    background-color: rgba(0,0,0,.1);
-    padding: .2em;
+  p.forecast--city {
     margin: 0;
-    border-radius: 1em;
-    -webkit-box-shadow:inset 1px 1px 1px 1px rgba(0,0,0,.1);
-            box-shadow:inset 1px 1px 1px 1px rgba(0,0,0,.1);
-    font-size: 1.1em;
-    font-weight: 600;
-    color: #fff;
+    padding: .7em 0;
+    border-radius: 10px 10px 0 0;
+    background-color: rgba(255,255,255,.5);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #222;
   }
-  .forecast-tempature {
+  p.forecast--date {
+    margin: 0;
+    padding: .5em 0;
+    background-color: rgba(255,255,255,.3);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+  }
+  .forecast--temp {
     margin: 0 0 .1em 0;
     padding: .1em 0 0 0;
 
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 6em;
-    color: #383838;
+    font-size: 7em;
+    color: #222;
     text-shadow: 0 1px 1px #FFFFFF;
   }
-  .forecast-tempature small {
+  .forecast--temp small {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 75%;
-    color: #515151;
+    color: #666;
   }
 /*------------------------------------*\
     #Weather Icons
 \*------------------------------------*/
-.icon {
+.forecast--icon {
   position: relative;
   width: 100%;
-  height: 200px;
-  margin-bottom: 3em;
+  height: 220px;
 }
+.partlycloudy { background: url('../../assets/icons/Partly_Sunny_2.svg') top center no-repeat transparent;}
+.sunny { background: url('../../assets/icons/Sun.svg') top center no-repeat transparent; }
+.raining { background: url('../../assets/icons/Rainstorm.svg') top center no-repeat transparent; }
+.lightning { background: url('../../assets/icons/Lightning_1.svg') top center no-repeat transparent; }
+
+/*------------------------------------*\
+    #Extended Forecast Column--Sidebar
+\*------------------------------------*/
+.x-forecast {
+  min-height: 125px;
+  border-radius: 10px 10px 10px 10px;
+  margin: 0 0 2px 2px;
+  padding: 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .x-forecast {
+    border-radius: 0 10px 10px 0;
+  }
+}
+  .light .x-forecast {
+    background-color: rgba(255,255,255,.8);
+  }
+  .dark .x-forecast {
+    background-color: rgba(255,255,255,.6);
+  }
+
+  .x-forecast--date {
+    margin: 0;
+    padding: .5em 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-color: rgba(255,255,255,.3);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+  }
+  @media (min-width: 768px) {
+    .x-forecast--date {
+      border-radius: 0 10px 0 0;
+    }
+  }
+  .x-forecast--temp {
+    padding: .4em 0 .4em .1em;
+    float: left;
+    width: 50%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+    color: #222;
+    text-shadow: 0 1px 1px #FFFFFF;
+  }
+  .x-forecast--temp small {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 75%;
+    color: #666;
+  }
+  .forecast--sidebar .row  {
+    margin: 0;
+  }
+  .x-forecast--icon {
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 60px;
+    background-size: 80px 60px;
+  }
 /*------------------------------------*\
     #Footer
 \*------------------------------------*/
@@ -252,6 +369,7 @@ footer {
   footer p {
     margin: 0 0 1em 0;
     padding: 0;
+    text-align: center;
     color: #a8a8a8;
   }
 footer .photo-attribute {

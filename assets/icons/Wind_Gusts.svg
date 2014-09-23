@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="200px" viewBox="0 0 300 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Wind_Gusts</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Wind_Gusts" sketch:type="MSArtboardGroup" stroke-linecap="round" stroke="#FFFFFF" stroke-width="7">
+            <g id="Wind-2" sketch:type="MSLayerGroup" transform="translate(15.000000, 48.000000)">
+                <path d="M44.4996446,104.61503 L165.666321,104.615029 C165.666321,104.615029 186.952517,105.931846 186.952517,86.2938168 C186.952517,66.6557874 164.695944,67.9726049 164.695944,67.9726049" id="Path-576" sketch:type="MSShapeGroup" transform="translate(115.221088, 86.578947) scale(1, -1) translate(-115.221088, -86.578947) "></path>
+                <path d="M21.5805498,52.5 L250.507749,52.5" id="Line" sketch:type="MSShapeGroup"></path>
+                <path d="M0.106219441,36.4571352 L250.469042,36.457134 C250.469042,36.457134 271.755238,37.7739515 271.755238,18.1359221 C271.755238,-1.50210732 249.498665,-0.185289885 249.498665,-0.185289885" id="Path-575" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
