@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="200px" viewBox="0 0 300 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Moon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Moon" sketch:type="MSArtboardGroup" stroke="#FFFFFF" stroke-width="7">
+            <path d="M244.395374,129.794967 C231.736668,160.143581 201.816942,181.470761 166.923466,181.470761 C120.573815,181.470761 83,143.840444 83,97.4210948 C83,56.4286099 112.301894,22.2902406 151.073175,14.8683182 C146.917091,24.832329 144.621622,35.7687884 144.621622,47.2421896 C144.621622,93.6615385 182.195437,131.291856 228.545087,131.291856 C233.963801,131.291856 239.262569,130.777531 244.395374,129.794967 Z" id="Moon-2" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

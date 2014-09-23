@@ -1,44 +1,43 @@
-/*------------------------------------*\
-    #Brand Icon
-\*------------------------------------*/
-.dark .svg-earth,
-.dark .svg-moon-orbit  {
-  stroke: #FFFFFF;
+.icons {
+  background-color: #fff;
 }
-  .dark .svg-earth:hover,
-  .dark .svg-moon-orbit:hover  {
-    stroke: #d1d1d1;
-  }
-.dark .svg-moon {
-  fill: #FFFFFF;
+.icons .wrapper {
+  margin: 1em 0;
 }
-  .dark .svg-moon:hover {
-    fill: #d1d1d1;
-  }
+  .sun-icons { background-color: #76ABE9; }
+  .cloud-icons { background-color: #4A90E2; }
+  .storm-icons { background-color: #4A90E2; }
+  .rain-icons { background-color: #4A90E2; }
+  .snow-icons { background-color: #185499; }
+  .night-icons { background-color: #061527; }
 
-.light .svg-earth,
-.light .svg-moon-orbit  {
-  stroke: #3d3d3d;
+figure {
+  margin: 1.5em .8em 1.5em 0;
 }
-  .light .svg-earth:hover,
-  .light .svg-moon-orbit:hover  {
-    stroke: #3d3d3d;
+  .content figure {
+    float: left;
   }
-.light .svg-moon {
-  fill: #3d3d3d;
+  .content img {
+    width: 100px;
+  }
+  @media screen and (min-width: 480px) {
+    .container {
+      width: 390px;
+    }
+  }
+.button {
+  margin: 1.2em 0 1.5em 0;
+  text-align: center;
 }
-  .light .svg-moon:hover {
-    fill: #3d3d3d;
-  }
 /*------------------------------------*\
-    #Weather Icons
+  #Bootstrap Overwrite
 \*------------------------------------*/
-.partlycloudy {
-  background: url('../../assets/icons/partlycloudy.svg') top center no-repeat transparent;
+.btn-default {
+  color: #061527;
+  background-color: #fff;
+  border-color: #185499;
 }
-.cloudy {
-  background: url('../../assets/icons/cloudy.svg') top center no-repeat transparent;
-}
-.cloud {
-  background: url('../../assets/icons/cloud.svg') top center no-repeat transparent;
+.btn-default:hover {
+  color: #fff;
+  background-color: #4A90E2;
 }

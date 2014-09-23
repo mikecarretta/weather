@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="350px" height="200px" viewBox="0 0 350 200" enable-background="new 0 0 350 200" xml:space="preserve">
-<path fill="none" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M249.687,55.131c-3.261,0-6.433,0.297-9.484,0.995c-0.001-0.001-0.001-0.003-0.002-0.004c-20.254,7.769-25.782,26.494-25.782,26.494
-	s5.528-18.726,25.782-26.494c-8.857-23.165-31.286-39.612-57.567-39.612c-29.953,0-54.911,21.388-60.468,49.71
-	c0,0,8.168,3.946,9.835,6.279c-1.667-2.333-9.835-6.279-9.835-6.279c-4.875-2.257-10.295-3.505-16.021-3.505
-	C85.081,62.716,68,79.838,68,100.901s17.081,38.429,38.144,38.429c13.62,0,59.159,1.17,76.489,1.17h67.054
-	c23.392,0,42.359-19.334,42.359-42.727C292.046,74.381,273.078,55.131,249.687,55.131z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="200px" viewBox="0 0 300 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Cloud</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Cloud" sketch:type="MSArtboardGroup" stroke="#FFFFFF" stroke-width="7" fill="#FFFFFF" fill-opacity="0.1">
+            <path d="M226.622137,178.997818 C261.121047,178.7129 289,150.564027 289,115.881757 C289,81.0225136 260.835806,52.7635135 226.093511,52.7635135 C221.151503,52.7635135 216.342598,53.335317 211.728928,54.4165838 C197.50883,34.7727084 174.433772,22 148.385496,22 C109.620646,22 77.4406319,50.2879361 71.2312387,87.4127669 C67.1907373,86.2636415 62.9264893,85.6486486 58.519084,85.6486486 C32.8273033,85.6486486 12,106.54606 12,132.324324 C12,158.102588 32.8273033,179 58.519084,179 L226.622137,179 Z" id="Cloud-2" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
 </svg>

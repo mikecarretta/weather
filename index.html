@@ -7,17 +7,18 @@
     <meta name="description" content="Starter HTML5 Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="assets/css/normalize.min.css">
+    <link rel="icon" href="/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="stylesheet" href="assets/css/icons.css">
 
   </head>
   <body class="dark">
   <!-- Semantic HTML5 markup -->
     <header role="banner" class="branding">
-      <div class="wrapper">
-        <div class="row clearfix">
-          <div class="col full">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
             <div class="brand">
               <a href="index.html">
                 <svg class="svg-brand" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="126px" height="75px" viewBox="0 0 126 74.999" enable-background="new 0 0 126 74.999" xml:space="preserve">
@@ -35,46 +36,67 @@
                       </animateMotion>
                     </circle>
                 </svg>
+                <h1>Weather Forecast</h1>
               </a>
-
-              <p class="switch"><a href="#" class="switch-light">Light</a> | <a href="#" class="switch-dark">Dark</a></p>
             </div>
-            <input type="text" class="location" name="location" placeholder="Enter city/state..." />
+            <input type="text" class="location" name="location" placeholder="Enter the City, State" />
           </div>
         </div>
       </div>
     </header><!-- /header -->
 
-    <div class="wrapper">
+    <div class="container">
+      <div class="row">
 
-      <div class="row clearfix">
-        <div class="col full">
-          <main role="main" class="content">
+        <div class="col-sm-8 forecast--main">
+          <div class="forecast">
+            <p class="forecast--city">Stratford, Connecticut</p>
+            <p class="forecast--date">Mon, Sep 8, 2014, 12:31 pm</p>
+            <h2 class="forecast--temp">63˚<small>/47˚</small></h2>
+            <div class="forecast--icon partlycloudy"></div>
+          </div>
+        </div>
 
-            <section class="forecast">
-              <article>
-                <p class="forecast-city">Stratford, Connecticut</p>
-                <h2 class="forecast-tempature">63˚<small>/47˚</small></h2>
-                <div class="icon partlycloudy"></div>
-                <p class="forecast-date">Monday, Sept 8, 2014, 12:31 pm</p>
-              </article>
-            </section>
+        <div class="col-sm-4 forecast--sidebar">
 
-          </main>
+          <div class="x-forecast 2">
+            <p class="x-forecast--date">Tue, Sep 9, 2014</p>
+            <div class="row">
+              <div class="x-forecast--temp">71˚<small>/56˚</small></div>
+              <div class="x-forecast--icon sunny"></div>
+            </div>
+          </div>
+
+          <div class="x-forecast 3">
+            <p class="x-forecast--date">Wed, Sep 10, 2014</p>
+            <div class="row">
+              <div class="x-forecast--temp">68˚<small>/51˚</small></div>
+              <div class="x-forecast--icon raining"></div>
+            </div>
+          </div>
+
+          <div class="x-forecast 4">
+            <p class="x-forecast--date">Thu, Sep 11, 2014</p>
+            <div class="row">
+              <div class="x-forecast--temp">66˚<small>/49˚</small></div>
+              <div class="x-forecast--icon lightning"></div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <footer role="contentinfo" class="footer">
-        <p><small>A JavaScript weather project by <a href="http://mikecarretta.github.io" title="Mike Carretta Github Page">Mike Carretta</a> - <a href="http://opensource.org/licenses/MIT">MIT License</a> <time datetime="2014">2014</time>. Data provided by the <a href="http://www.wunderground.com/weather/api/" title="Weather Underground API">Weather Underground API</a>.</small></p>
-
-        <p class="photo-attribute"><small>Photo by <a href="https://twitter.com/koucik">Martin Staněk</a> from <a href="http://unsplash.com/">Unsplash</a>.</small></p>
-      </footer>
     </div>
-    <!-- vendor js -->
+
+    <footer role="contentinfo" class="footer">
+      <div class="container">
+        <div class="row">
+          <p>View and download the <a href="icons.html" title="SVG weather icons">SVG weather icons</a>.</p>
+          <p><small>A JavaScript weather project by <a href="http://mikecarretta.github.io" title="Mike Carretta Github Page">Mike Carretta</a> - <a href="http://opensource.org/licenses/MIT">MIT License</a> <time datetime="2014">2014</time>. Data provided by the <a href="http://www.wunderground.com/weather/api/" title="Weather Underground API">Weather Underground API</a>. Photo by <a href="https://twitter.com/koucik">Martin Staněk</a> from <a href="http://unsplash.com/">Unsplash</a>.</small></p>
+        </div>
+      </div>
+    </footer>
+    <!-- vendor js   -->
     <script src="assets/js/vendors/jquery.min.js"></script>
     <script src="assets/js/vendors/jquery.backstretch.min.js"></script>
-    <script src="assets/js/vendors/velocity.min.js"></script>
-    <script src="assets/js/vendors/velocity.ui.js"></script>
 
     <script src="assets/js/app.js"></script>
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="200px" viewBox="0 0 300 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Sun</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Sun" sketch:type="MSArtboardGroup" stroke="#FFFFFF" stroke-width="7">
+            <g id="Sun-2" sketch:type="MSLayerGroup" transform="translate(63.000000, 14.000000)">
+                <ellipse id="Oval-4" fill-opacity="0.1" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="89.2596759" cy="88" rx="55.1147145" ry="55.1028037"></ellipse>
+                <path d="M88.0190217,32.0747664 L88.0190217,0.822429907" id="0" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M129.015189,47.864352 L151.118705,25.765613" id="45" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M160.165761,102.803738 L160.165761,71.5514019" id="90" stroke-linecap="round" sketch:type="MSShapeGroup" transform="translate(160.165761, 87.177570) rotate(90.000000) translate(-160.165761, -87.177570) "></path>
+                <path d="M153.510589,150.234387 L131.407073,128.135648" id="135" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M88.0190217,175.17757 L88.0190217,143.925234" id="180" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M23.0932035,149.84566 L45.1967193,127.746921" id="225" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M16.8342391,102.803738 L16.8342391,71.5514019" id="270" stroke-linecap="round" sketch:type="MSShapeGroup" transform="translate(16.834239, 87.177570) rotate(90.000000) translate(-16.834239, -87.177570) "></path>
+                <path d="M46.5715904,47.2362854 L24.4680746,25.1375464" id="315" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
