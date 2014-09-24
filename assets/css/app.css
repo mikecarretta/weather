@@ -21,7 +21,7 @@
     #Base
 \*------------------------------------*/
 body {
-  background-color: #185499;
+  background-color: #2c333d;
 }
 a {
   color: #428bca;
@@ -249,6 +249,7 @@ h6 {
     background-color: rgba(255,255,255,.6);
   }
   p.forecast--city {
+    min-height: 60px;
     margin: 0;
     padding: .7em 0;
     border-radius: 10px 10px 0 0;
@@ -292,8 +293,9 @@ h6 {
   height: 220px;
 }
 .partlycloudy { background: url('../../assets/icons/Partly_Sunny_2.svg') top center no-repeat transparent;}
-.sunny { background: url('../../assets/icons/Sun.svg') top center no-repeat transparent; }
-.raining { background: url('../../assets/icons/Rainstorm.svg') top center no-repeat transparent; }
+.sunny,
+.clear { background: url('../../assets/icons/Sun.svg') top center no-repeat transparent; }
+.rain { background: url('../../assets/icons/Rainstorm.svg') top center no-repeat transparent; }
 .lightning { background: url('../../assets/icons/Lightning_1.svg') top center no-repeat transparent; }
 
 /*------------------------------------*\
@@ -360,6 +362,14 @@ h6 {
     height: 60px;
     background-size: 80px 60px;
   }
+
+.alert {
+  margin: 1em 0;
+}
+.note {
+  margin: .8em 5em;
+  color: #fff;
+}
 /*------------------------------------*\
     #Footer
 \*------------------------------------*/
