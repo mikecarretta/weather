@@ -56,7 +56,8 @@
       api: function() {
         return $http({
           // url: "assets/js/06615.json",
-          url: "http://api.wunderground.com/api/dc78f7e3ed16d1b7/forecast/q/06615.json"
+          url: "http://api.wunderground.com/api/dc78f7e3ed16d1b7/forecast/q/06615.json",
+          dataType : "jsonp"
         });
       }
     };
