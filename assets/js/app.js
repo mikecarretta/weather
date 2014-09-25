@@ -54,12 +54,7 @@
   .factory('wundergroundFactory', function($http){
     return {
       api: function() {
-        return $http({
-          // url: "assets/js/06615.json",
-          method: 'POST',
-          url: "http://api.wunderground.com/api/dc78f7e3ed16d1b7/forecast/q/06615.json",
-          dataType : "jsonp"
-        });
+        return $http.jsonp("http://api.wunderground.com/api/dc78f7e3ed16d1b7/forecast/q/06615.json?callback=JSON_CALLBACK");
       }
     };
   })
