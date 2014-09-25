@@ -39,7 +39,15 @@
                 <h1>Weather Forecast</h1>
               </a>
             </div>
-            <input type="text" ng-model="location" class="location" name="location" placeholder="Enter zip code" />
+
+            <form name="city" class="form-inline" role="form" ng-submit="submit()" novalidate>
+
+              <div ng-class="{ 'has-error' : city.location.$invalid && !city.location.$pristine }">
+
+                <input type="text" ng-model="location" class="location" name="location" ng-minlength="5" ng-maxlength="5" required />
+
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -52,7 +60,7 @@
           <p>{{alert.message}}</p>
         </alert>
 
-        <h3 class="note">Please note that this is a work in progress and the zip code is currently hard coded into the API call, so the input field does not work (Next Step).</h3>
+        <h3 class="note">Please enter a 5 digit zipcode to view your local forecast. Next steps: City, State autocomplete feature and implement HTML5 geolocation. Working on displaying a alert message if the zipcode is not found.</h3>
 
         <div class="col-sm-8 forecast--main">
           <div today></div>
@@ -68,12 +76,12 @@
       <div class="container">
         <div class="row">
           <p>View and download the <a href="icons.html" title="SVG weather icons">SVG weather icons</a>.</p>
-          <p><small>A JavaScript weather project by <a href="http://mikecarretta.github.io" title="Mike Carretta Github Page">Mike Carretta</a> - <a href="http://opensource.org/licenses/MIT">MIT License</a> <time datetime="2014">2014</time>. Data provided by the <a href="http://www.wunderground.com/weather/api/" title="Weather Underground API">Weather Underground API</a>. Photo by <a href="https://twitter.com/koucik">Martin Staněk</a> from <a href="http://unsplash.com/">Unsplash</a>.</small></p>
+          <p><small>An Angularjs weather project by <a href="http://mikecarretta.github.io" title="Mike Carretta Github Page">Mike Carretta</a> - <a href="http://opensource.org/licenses/MIT">MIT License</a> <time datetime="2014">2014</time>. Data provided by the <a href="http://www.wunderground.com/weather/api/" title="Weather Underground API">Weather Underground API</a>. Photo by <a href="https://twitter.com/koucik">Martin Staněk</a> from <a href="http://unsplash.com/">Unsplash</a>.</small></p>
         </div>
       </div>
     </footer>
     <!-- vendor js -->
-    <script src="assets/js/vendors/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
     <script src="assets/js/vendors/jquery.min.js"></script>
     <script src="assets/js/vendors/jquery.backstretch.min.js"></script>
 

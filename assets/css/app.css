@@ -198,6 +198,9 @@ h6 {
 /*------------------------------------*\
     #Input Field
 \*------------------------------------*/
+input.ng-invalid.location {
+  background-color: rgba(169,68,66,.3);
+}
 .location {
   width: 100%;
   padding: .5em 0;
@@ -221,6 +224,7 @@ h6 {
     color: #fff;
     background-color: rgba(255,255,255,.1);
   }
+
 /*------------------------------------*\
     #Forecast Column--Main
 \*------------------------------------*/
@@ -295,7 +299,8 @@ h6 {
 .partlycloudy { background: url('../../assets/icons/Partly_Sunny_2.svg') top center no-repeat transparent;}
 .sunny,
 .clear { background: url('../../assets/icons/Sun.svg') top center no-repeat transparent; }
-.rain { background: url('../../assets/icons/Rainstorm.svg') top center no-repeat transparent; }
+.rain,
+.chancerain { background: url('../../assets/icons/Rainstorm.svg') top center no-repeat transparent; }
 .lightning { background: url('../../assets/icons/Lightning_1.svg') top center no-repeat transparent; }
 
 /*------------------------------------*\
@@ -364,10 +369,15 @@ h6 {
   }
 
 .alert {
-  margin: 1em 0;
+  margin: 1em 4em;
+  text-align: center;
+  font-weight: bold;
 }
+  .alert p {
+    margin: 0;
+  }
 .note {
-  margin: .8em 5em;
+  margin: .8em 4em;
   color: #fff;
 }
 /*------------------------------------*\

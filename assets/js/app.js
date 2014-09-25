@@ -5,24 +5,44 @@
   .controller('locationController', function($scope, wundergroundFactory) {
     $scope.location = "06615";
 
-    wundergroundFactory.api().success(function(data) {
-      // console.log(data.forecast.simpleforecast.forecastday);
-      var currentDay = data.forecast.simpleforecast.forecastday[0];
-      $scope.forecastWeekDay = currentDay.date.weekday_short;
-      $scope.forecastMonth = currentDay.date.monthname_short;
-      $scope.forecastDay = currentDay.date.day;
-      $scope.forecastYear = currentDay.date.year;
-      $scope.forecastHigh = currentDay.high.fahrenheit;
-      $scope.forecastLow = currentDay.low.fahrenheit;
-      $scope.forecastIcon = currentDay.icon;
+    $scope.submit = function() {
+      newVal = $scope.location;
+      if ($scope.city.$valid) {
+        $scope.alert = '';
+        wunderground(newVal);
+      } else {
+        $scope.alert = {
+          message: "Aw Snap! Please enter a valid 5 digit zip code",
+          type: "danger"
+        };
+      }
+    };
 
-      $scope.forecastData = data.forecast.simpleforecast.forecastday;
-    }).error(function(data, status) {
-      $scope.alert = {
-        message: "Awe! Snap, could not connect to wunderground.com. Status: " + status,
-        type: "danger"
-      };
-    });
+    wunderground($scope.location);
+
+    function wunderground(zip) {
+      wundergroundFactory.api(zip).success(function(data) {
+        // console.log(data.forecast.simpleforecast.forecastday);
+
+          var currentDay = data.forecast.simpleforecast.forecastday[0];
+          $scope.forecastWeekDay = currentDay.date.weekday_short;
+          $scope.forecastMonth = currentDay.date.monthname_short;
+          $scope.forecastDay = currentDay.date.day;
+          $scope.forecastYear = currentDay.date.year;
+          $scope.forecastHigh = currentDay.high.fahrenheit;
+          $scope.forecastLow = currentDay.low.fahrenheit;
+          $scope.forecastIcon = currentDay.icon;
+
+          $scope.forecastData = data.forecast.simpleforecast.forecastday;
+
+      }).error(function(data, status) {
+        $scope.alert = {
+          message: "Aw Snap! Could not connect to wunderground.com. Status: " + status,
+          type: "danger"
+        };
+      });
+    }
+
   })
   // AngularJS Directive
   // =========================================================================
@@ -53,8 +73,9 @@
   // =========================================================================
   .factory('wundergroundFactory', function($http){
     return {
-      api: function() {
-        return $http.jsonp("http://api.wunderground.com/api/dc78f7e3ed16d1b7/forecast/q/06615.json?callback=JSON_CALLBACK");
+      api: function(zip) {
+        return $http.jsonp("http://api.wunderground.com/api/dc78f7e3ed16d1b7/forecast/q/" + zip + ".json?callback=JSON_CALLBACK");
+        //return $http({url: "assets/js/06615.json"});
       }
     };
   })
