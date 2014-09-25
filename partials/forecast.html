@@ -1,0 +1,8 @@
+<!-- ngRepeat Forecast Days 2-4 -->
+<div ng-repeat="day in forecastData" ng-if="!$first" class="x-forecast {{day.period}}">
+  <p class="x-forecast--date">{{day.date.weekday_short}}, {{day.date.monthname_short}} {{day.date.day}}, {{day.date.year}}</p>
+  <div class="row">
+    <div class="x-forecast--temp">{{day.high.fahrenheit}}˚<small>/{{day.low.fahrenheit}}˚</small></div>
+    <div class="x-forecast--icon {{day.icon}}"></div>
+  </div>
+</div>
