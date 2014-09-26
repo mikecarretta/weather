@@ -234,7 +234,7 @@ input.ng-invalid.location {
     padding-right: 0;
   }
   .forecast--sidebar {
-    margin-top: 83px;
+    margin-top: 88px;
     padding-left: 0;
   }
 }
@@ -288,6 +288,19 @@ input.ng-invalid.location {
     font-size: 75%;
     color: #666;
   }
+  .forecast--condition {
+    position: relative;
+    bottom: 0;
+    min-height: 30px;
+    margin: 0;
+    padding: .4em 0;
+    border-radius: 0 0 10px 10px;
+    background-color: rgba(255,255,255,.3);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #222;
+  }
 /*------------------------------------*\
     #Weather Icons
 \*------------------------------------*/
@@ -296,12 +309,34 @@ input.ng-invalid.location {
   width: 100%;
   height: 220px;
 }
-.partlycloudy { background: url('../../assets/icons/Partly_Sunny_2.svg') top center no-repeat transparent;}
+
 .sunny,
-.clear { background: url('../../assets/icons/Sun.svg') top center no-repeat transparent; }
+.mostlysunny,
+.clear { background: url('../../assets/icons-gray/Sun.svg') top center no-repeat transparent; }
+
+.partlycloudy { background: url('../../assets/icons-gray/Partly_Sunny_2.svg') top center no-repeat transparent;}
+
+.cloudy,
+.mostlycloudy { background: url('../../assets/icons-gray/Cloudy.svg') top center no-repeat transparent; }
+
 .rain,
-.chancerain { background: url('../../assets/icons/Rainstorm.svg') top center no-repeat transparent; }
-.lightning { background: url('../../assets/icons/Lightning_1.svg') top center no-repeat transparent; }
+.chancerain { background: url('../../assets/icons-gray/Rainstorm.svg') top center no-repeat transparent; }
+
+.tstorms,
+.chancetstorms { background: url('../../assets/icons-gray/Lightning_storm.svg') top center no-repeat transparent; }
+
+.flurries,
+.chanceflurries { background: url('../../assets/icons-gray/Flurries.svg') top center no-repeat transparent; }
+
+.chancesleet,
+.sleet { background: url('../../assets/icons-gray/Sleet.svg') top center no-repeat transparent; }
+
+.chancesnow,
+.snow { background: url('../../assets/icons-gray/Snowing.svg') top center no-repeat transparent; }
+
+.fog { background: url('../../assets/icons-gray/Fog.svg') top center no-repeat transparent; }
+
+/* .hazy { } */
 
 /*------------------------------------*\
     #Extended Forecast Column--Sidebar
@@ -366,6 +401,18 @@ input.ng-invalid.location {
     width: 50%;
     height: 60px;
     background-size: 80px 60px;
+  }
+  .x-forecast--condition {
+    position: relative;
+    bottom: 0;
+    min-height: 20px;
+    margin: 0;
+    padding: .2em 0;
+    border-radius: 0 0 10px 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222;
   }
 
 .alert {

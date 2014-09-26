@@ -32,6 +32,7 @@
           $scope.forecastHigh = currentDay.high.fahrenheit;
           $scope.forecastLow = currentDay.low.fahrenheit;
           $scope.forecastIcon = currentDay.icon;
+          $scope.condition = currentDay.conditions;
 
           $scope.forecastData = data.forecast.simpleforecast.forecastday;
 
@@ -75,7 +76,8 @@
     return {
       api: function(zip) {
         return $http.jsonp("http://api.wunderground.com/api/dc78f7e3ed16d1b7/forecast/q/" + zip + ".json?callback=JSON_CALLBACK");
-        //return $http({url: "assets/js/06615.json"});
+        /* localhost development
+          return $http.get("assets/js/06615.json"); */
       }
     };
   })

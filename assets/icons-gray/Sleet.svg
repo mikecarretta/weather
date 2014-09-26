@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="200px" viewBox="0 0 300 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Sleet</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Sleet" sketch:type="MSArtboardGroup" stroke="#4A4A4A">
+            <g id="Sleet-2" sketch:type="MSLayerGroup" transform="translate(7.000000, 9.000000)">
+                <path d="M204.01065,110.401376 C195.990959,120.803611 183.468637,127.533656 169.375117,127.650056 L169.375117,127.651591 L51.1722232,127.651591 C33.1068593,127.651591 18.4619883,112.956667 18.4619883,94.8295601 C18.4619883,76.7024531 33.1068593,62.0075295 51.1722232,62.0075295 C54.2713225,62.0075295 57.2697597,62.4399884 60.110868,63.2480459 C64.4770483,37.1421071 87.1046612,17.250215 114.36245,17.250215 C124.383907,17.250215 133.779504,19.9390036 141.871821,24.6368475 C137.673974,30.9601925 134.741621,38.2019364 133.437769,45.9978309 C130.596661,45.1897735 127.598223,44.7573145 124.499124,44.7573145 C106.43376,44.7573145 91.7888891,59.4522382 91.7888891,77.5793451 C91.7888891,95.7064521 106.43376,110.401376 124.499124,110.401376 L204.01065,110.401376 L204.01065,110.401376 Z" id="Cloud--back" stroke-width="5" fill-opacity="0.2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M242.764388,110.071262 C267.022549,109.87091 286.625839,90.0768056 286.625839,65.6884594 C286.625839,41.175667 266.821979,21.3041225 242.39268,21.3041225 C238.917671,21.3041225 235.536254,21.706211 232.292118,22.4665508 C222.293152,8.65310573 206.067756,-0.328579516 187.75172,-0.328579516 C160.493931,-0.328579516 137.866319,19.5633126 133.500138,45.6692514 C130.65903,44.861194 127.660593,44.428735 124.561493,44.428735 C106.49613,44.428735 91.8512586,59.1236586 91.8512586,77.2507656 C91.8512586,95.3778726 106.49613,110.072796 124.561493,110.072796 L242.764388,110.072796 L242.764388,110.071262 Z" id="Cloud--front" stroke-width="5" fill-opacity="0.2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <g id="The-Rain-2" transform="translate(23.497076, 110.537037)" stroke-width="7" stroke-linecap="round" sketch:type="MSShapeGroup">
+                    <path d="M28.9169625,18.156131 L-0.166290768,47.359816" id="drop4"></path>
+                    <path d="M67.7923448,18.1577056 L38.4428434,47.6287413" id="drop3"></path>
+                    <path d="M110.545523,18.1624786 L80.3889759,48.4439024" id="drop2"></path>
+                    <path d="M149.46112,18.1643419 L118.989514,48.762129" id="drop1"></path>
+                    <path d="M208.848221,0.726935373 L161.530619,48.2404763" id="drop"></path>
+                </g>
+                <g id="Snow--x-small1-6" transform="translate(161.122807, 161.630835)" sketch:type="MSShapeGroup">
+                    <path d="M6.67893539,7.96956794 L10.0795456,5.77266311 L13.4801558,7.95050215 L13.4801558,11.8719446 L10.0795456,13.8498983 L6.67893539,11.8719446 L6.67893539,7.96956794 Z" id="Path-93" fill-opacity="0.1" fill="#FFFFFF"></path>
+                    <path d="M10.0900308,0.124353878 L10.0900308,20.0209743" id="Line" stroke-linecap="round"></path>
+                    <path d="M0.366146268,9.6347222 L19.8939473,9.6347222" id="Line" stroke-linecap="round" transform="translate(10.130047, 10.072664) rotate(-30.000000) translate(-10.130047, -10.072664) "></path>
+                    <path d="M1.73528527,4.8664615 L18.646857,14.8147717" id="Line-2" stroke-linecap="round"></path>
+                    <g id="north-end" transform="translate(7.078828, 0.000000)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,0" id="Line-2"></path>
+                    </g>
+                    <g id="north-end-2" transform="translate(3.119417, 5.716486) rotate(-58.000000) translate(-3.119417, -5.716486) translate(0.048538, 3.964718)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,-2.42028619e-14" id="Line-2"></path>
+                    </g>
+                    <g id="north-end-right" transform="translate(17.095723, 5.737581) rotate(-300.000000) translate(-17.095723, -5.737581) translate(14.024845, 3.985814)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,2.0206059e-14" id="Line-2"></path>
+                    </g>
+                    <g id="south-end" transform="translate(7.078828, 16.912127)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M0,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                    <g id="south-end-left" transform="translate(2.886102, 14.098194) rotate(-300.000000) translate(-2.886102, -14.098194) translate(-0.184777, 12.346426)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M2.0206059e-14,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                    <g id="south-end-right" transform="translate(17.335965, 14.102575) rotate(-60.000000) translate(-17.335965, -14.102575) translate(14.265086, 12.350807)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M-9.32587341e-15,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                </g>
+                <g id="Snow--x-small1-6" transform="translate(117.485380, 161.630835)" sketch:type="MSShapeGroup">
+                    <path d="M6.67893539,7.96956794 L10.0795456,5.77266311 L13.4801558,7.95050215 L13.4801558,11.8719446 L10.0795456,13.8498983 L6.67893539,11.8719446 L6.67893539,7.96956794 Z" id="Path-93" fill-opacity="0.1" fill="#FFFFFF"></path>
+                    <path d="M10.0900308,0.124353878 L10.0900308,20.0209743" id="Line" stroke-linecap="round"></path>
+                    <path d="M0.366146268,9.6347222 L19.8939473,9.6347222" id="Line" stroke-linecap="round" transform="translate(10.130047, 10.072664) rotate(-30.000000) translate(-10.130047, -10.072664) "></path>
+                    <path d="M1.73528527,4.8664615 L18.646857,14.8147717" id="Line-2" stroke-linecap="round"></path>
+                    <g id="north-end" transform="translate(7.078828, 0.000000)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,0" id="Line-2"></path>
+                    </g>
+                    <g id="north-end-2" transform="translate(3.119417, 5.716486) rotate(-58.000000) translate(-3.119417, -5.716486) translate(0.048538, 3.964718)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,-2.42028619e-14" id="Line-2"></path>
+                    </g>
+                    <g id="north-end-right" transform="translate(17.095723, 5.737581) rotate(-300.000000) translate(-17.095723, -5.737581) translate(14.024845, 3.985814)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,2.0206059e-14" id="Line-2"></path>
+                    </g>
+                    <g id="south-end" transform="translate(7.078828, 16.912127)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M0,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                    <g id="south-end-left" transform="translate(2.886102, 14.098194) rotate(-300.000000) translate(-2.886102, -14.098194) translate(-0.184777, 12.346426)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M2.0206059e-14,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                    <g id="south-end-right" transform="translate(17.335965, 14.102575) rotate(-60.000000) translate(-17.335965, -14.102575) translate(14.265086, 12.350807)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M-9.32587341e-15,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                </g>
+                <g id="Snow--x-small1-6" transform="translate(77.204678, 161.630835)" sketch:type="MSShapeGroup">
+                    <path d="M6.67893539,7.96956794 L10.0795456,5.77266311 L13.4801558,7.95050215 L13.4801558,11.8719446 L10.0795456,13.8498983 L6.67893539,11.8719446 L6.67893539,7.96956794 Z" id="Path-93" fill-opacity="0.1" fill="#FFFFFF"></path>
+                    <path d="M10.0900308,0.124353878 L10.0900308,20.0209743" id="Line" stroke-linecap="round"></path>
+                    <path d="M0.366146268,9.6347222 L19.8939473,9.6347222" id="Line" stroke-linecap="round" transform="translate(10.130047, 10.072664) rotate(-30.000000) translate(-10.130047, -10.072664) "></path>
+                    <path d="M1.73528527,4.8664615 L18.646857,14.8147717" id="Line-2" stroke-linecap="round"></path>
+                    <g id="north-end" transform="translate(7.078828, 0.000000)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,0" id="Line-2"></path>
+                    </g>
+                    <g id="north-end-2" transform="translate(3.119417, 5.716486) rotate(-58.000000) translate(-3.119417, -5.716486) translate(0.048538, 3.964718)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,-2.42028619e-14" id="Line-2"></path>
+                    </g>
+                    <g id="north-end-right" transform="translate(17.095723, 5.737581) rotate(-300.000000) translate(-17.095723, -5.737581) translate(14.024845, 3.985814)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,2.0206059e-14" id="Line-2"></path>
+                    </g>
+                    <g id="south-end" transform="translate(7.078828, 16.912127)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M0,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                    <g id="south-end-left" transform="translate(2.886102, 14.098194) rotate(-300.000000) translate(-2.886102, -14.098194) translate(-0.184777, 12.346426)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M2.0206059e-14,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                    <g id="south-end-right" transform="translate(17.335965, 14.102575) rotate(-60.000000) translate(-17.335965, -14.102575) translate(14.265086, 12.350807)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M-9.32587341e-15,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                </g>
+                <g id="Snow--x-small1-6" transform="translate(36.695162, 161.630835)" sketch:type="MSShapeGroup">
+                    <path d="M6.67893539,7.96956794 L10.0795456,5.77266311 L13.4801558,7.95050215 L13.4801558,11.8719446 L10.0795456,13.8498983 L6.67893539,11.8719446 L6.67893539,7.96956794 Z" id="Path-93" fill-opacity="0.1" fill="#FFFFFF"></path>
+                    <path d="M10.0900308,0.124353878 L10.0900308,20.0209743" id="Line" stroke-linecap="round"></path>
+                    <path d="M0.366146268,9.6347222 L19.8939473,9.6347222" id="Line" stroke-linecap="round" transform="translate(10.130047, 10.072664) rotate(-30.000000) translate(-10.130047, -10.072664) "></path>
+                    <path d="M1.73528527,4.8664615 L18.646857,14.8147717" id="Line-2" stroke-linecap="round"></path>
+                    <g id="north-end" transform="translate(7.078828, 0.000000)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,0" id="Line-2"></path>
+                    </g>
+                    <g id="north-end-2" transform="translate(3.119417, 5.716486) rotate(-58.000000) translate(-3.119417, -5.716486) translate(0.048538, 3.964718)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,-2.42028619e-14" id="Line-2"></path>
+                    </g>
+                    <g id="north-end-right" transform="translate(17.095723, 5.737581) rotate(-300.000000) translate(-17.095723, -5.737581) translate(14.024845, 3.985814)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,2.0206059e-14" id="Line-2"></path>
+                    </g>
+                    <g id="south-end" transform="translate(7.078828, 16.912127)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M0,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                    <g id="south-end-left" transform="translate(2.886102, 14.098194) rotate(-300.000000) translate(-2.886102, -14.098194) translate(-0.184777, 12.346426)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M2.0206059e-14,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                    <g id="south-end-right" transform="translate(17.335965, 14.102575) rotate(-60.000000) translate(-17.335965, -14.102575) translate(14.265086, 12.350807)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M-9.32587341e-15,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                </g>
+                <g id="Snow--x-small1-6" transform="translate(-0.184583, 161.630835)" sketch:type="MSShapeGroup">
+                    <path d="M6.67893539,7.96956794 L10.0795456,5.77266311 L13.4801558,7.95050215 L13.4801558,11.8719446 L10.0795456,13.8498983 L6.67893539,11.8719446 L6.67893539,7.96956794 Z" id="Path-93" fill-opacity="0.1" fill="#FFFFFF"></path>
+                    <path d="M10.0900308,0.124353878 L10.0900308,20.0209743" id="Line" stroke-linecap="round"></path>
+                    <path d="M0.366146268,9.6347222 L19.8939473,9.6347222" id="Line" stroke-linecap="round" transform="translate(10.130047, 10.072664) rotate(-30.000000) translate(-10.130047, -10.072664) "></path>
+                    <path d="M1.73528527,4.8664615 L18.646857,14.8147717" id="Line-2" stroke-linecap="round"></path>
+                    <g id="north-end" transform="translate(7.078828, 0.000000)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,0" id="Line-2"></path>
+                    </g>
+                    <g id="north-end-2" transform="translate(3.119417, 5.716486) rotate(-58.000000) translate(-3.119417, -5.716486) translate(0.048538, 3.964718)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,-2.42028619e-14" id="Line-2"></path>
+                    </g>
+                    <g id="north-end-right" transform="translate(17.095723, 5.737581) rotate(-300.000000) translate(-17.095723, -5.737581) translate(14.024845, 3.985814)" stroke-linecap="round">
+                        <path d="M3.0512189,3.10884695 L0.116967797,0.119176956" id="Line"></path>
+                        <path d="M3.17326766,2.98966999 L6.10751877,2.0206059e-14" id="Line-2"></path>
+                    </g>
+                    <g id="south-end" transform="translate(7.078828, 16.912127)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M0,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                    <g id="south-end-left" transform="translate(2.886102, 14.098194) rotate(-300.000000) translate(-2.886102, -14.098194) translate(-0.184777, 12.346426)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M2.0206059e-14,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                    <g id="south-end-right" transform="translate(17.335965, 14.102575) rotate(-60.000000) translate(-17.335965, -14.102575) translate(14.265086, 12.350807)" stroke-linecap="round">
+                        <path d="M5.98038905,3.10884695 L3.04613795,0.119176956" id="Line-2"></path>
+                        <path d="M-9.32587341e-15,3.23837775 L2.93425111,0.248707756" id="Line-3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

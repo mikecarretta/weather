@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="200px" viewBox="0 0 300 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Fog</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Fog" sketch:type="MSArtboardGroup" stroke="#4A4A4A">
+            <g id="Fog-2" sketch:type="MSLayerGroup" transform="translate(27.000000, 9.000000)">
+                <path d="M192.195835,138.370371 C222.50601,138.119258 247,113.310187 247,82.7428922 C247,52.0196218 222.255402,27.1134901 191.731393,27.1134901 C187.389425,27.1134901 183.164401,27.6174504 179.110906,28.5704273 C166.617361,11.2572546 146.343995,0 123.458408,0 C89.4002481,0 61.1274165,24.9316345 55.6719457,57.6516856 C52.1220275,56.6389014 48.3755294,56.0968761 44.5032555,56.0968761 C21.9308793,56.0968761 3.63235294,74.5148558 3.63235294,97.2345852 C3.63235294,97.5470605 3.63581426,97.8587221 3.6427004,98.1695332 L3.63235294,98.1695332 L3.63235294,138.372294 L192.195835,138.372294 Z" id="Cloud-2" stroke-width="7" stroke-linejoin="round" fill-opacity="0.1" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M4.54044118,154.793233 L209.768382,154.793233" id="Line" stroke-width="7" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M2.72426471,169.928571 L209.768382,169.928571" id="Line-2" stroke-width="5" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M0.908088235,181.62406 L211.584559,181.62406" id="Line-3" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
